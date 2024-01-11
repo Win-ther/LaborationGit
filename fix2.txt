@@ -1,0 +1,17 @@
+1. git init LaborationGit; cd LaborationGit;
+3. git add README.md; git commit -m "Initial commit";
+4. git branch feature1; git checkout feature1;
+5. git add README.md; git commit -m "Change moose to mouse and add dog";
+6. git checkout main; git add README.md; git commit -m "Change moose to mahmut";
+7. git merge feature1; git add README.md; git commit;
+8. git tag extinct;
+9. git reset HEAD^; git restore README.md;
+11. git add README.md; git commit -m "Fix uppercase";
+10. git branch feature2;
+12. git checkout feature2; git add fix1.txt; git commit -m "Add fix1.txt"; git add fix2.txt; git commit -m "Add fix2.txt"
+13. git checkout main;
+14. git cherry-pick feature2;
+16. git remote add origin https://github.com/Win-ther/LaborationGit.git;
+git push -u origin main; git switch feature1; git push -u origin feature1; git push origin extinct;
+git switch feature2; git push -u origin feature2;
+git switch main; git add fix2.txt; git commit -m "Add all commands to fix2.txt"; git push;
